@@ -29,3 +29,4 @@ This Chrome extension tracks the amount of time you spend on each website and al
     - Click the "Settings" link in the popup to open the settings page.
     - Enter the domain name in the "Block Domain" field and click "Add to Block List".
 ![Screenshot 2024-05-19 105542](https://github.com/anonymous1508/Activity-Tracker/assets/109167785/dfab818c-ac65-478c-bf96-6d6f076140be)
+![Screenshot 2024-05-19 105542](https://github.com/anonymous1508/Activity-Tracker/assets/109167785/fad60e2d-3057-4e29-9733-a618a32f3c72)
