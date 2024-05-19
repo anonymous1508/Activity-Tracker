@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+    }
+    #timeList {
+      margin-top: 10px;
+    }
+    .domain {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      margin-bottom: 4px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .domain:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+    .domain span {
+      font-weight: bold;
+    }
+    #settingsLink {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Time Tracker</h1>
+  <div id="timeList"></div>
+  <a id="settingsLink" href="settings.html" target="_blank">Settings</a>
+  <script src="popup.js"></script>
+</body>
+</html>

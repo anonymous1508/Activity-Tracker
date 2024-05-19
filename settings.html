@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      font-size: 18px;
+      text-align: center;
+      color: #333;
+    }
+    #blocklist {
+      margin-top: 10px;
+    }
+    .blocklist-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      margin-bottom: 4px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .blocklist-item:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+    .blocklist-item span {
+      font-weight: bold;
+    }
+    #addBlocklistItem {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Settings</h1>
+  <div id="blocklist"></div>
+  <div id="addBlocklistItem">
+    <input type="text" id="newBlocklistItem" placeholder="Enter domain to block">
+    <button id="addButton">Add</button>
+  </div>
+  <script src="settings.js"></script>
+</body>
+</html>
